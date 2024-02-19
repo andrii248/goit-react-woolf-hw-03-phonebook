@@ -29,7 +29,7 @@ class App extends Component {
           newContact.name.toLocaleLowerCase()
       )
     ) {
-      alert(newContact.name + 'is already available in Contact List');
+      alert(newContact.name + 'is already available in your Contact List');
       return true;
     }
     return false;
